@@ -15,6 +15,7 @@ const IndexPage: NextPage<Props> = ({ initialImageUrl }) => {
   //     setLoading(false);
   //   });
   // },[])
+  // useEffect はSSR時にはいらない？
 
   const handleClick = async () => {
     setLoading(true);
